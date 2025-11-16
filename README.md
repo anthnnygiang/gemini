@@ -17,3 +17,4 @@ For Google Gemini API.
 
 - Keybind to select previous message
 - Clear history
+- Clean up code
