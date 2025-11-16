@@ -1,5 +1,7 @@
 # LLM
 
+![llm](./llm.png)
+
 Custom Go TUI implementation for LLM chat.
 For Google Gemini API.
 
