@@ -199,8 +199,8 @@ func (m model) keyEnter() (tea.Model, tea.Cmd) {
 			if chunk == nil {
 				continue
 			}
-			part := chunk.Candidates[0].Content.Parts[0].Text
-			parts <- part // push parts into channel in order
+			part := chunk.Candidates[0].Content.Parts[0].Text // TODO: check for empty slices
+			parts <- part                                     // push parts into channel in order
 		}
 		close(parts)
 	}()
